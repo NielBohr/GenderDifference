@@ -1,5 +1,7 @@
 # Interactive graph
 
+##Legislation of protecting equality in different groups
+
 <style>
   * {
     font-family: sans-serif;
@@ -8,6 +10,298 @@
 
 <div id="plot">
 </div>
+<div id="description" style="margin-top: 20px; padding: 10px; font-size: 14px; line-height: 1.5;">
+
+  <p>This bar chart show the number of countries that has legislation protecting gender equality in Mobility, Workplace, Pay, Marriage, Parenthood, Entrepreneurship, Assets and Pension, based on Women, Business and Law Data researched by World Bank  Group. You can click on the buttons with different groups to see how many countries have legislation protecting equality in these groups. The dark blue bar shows the number of countries that have legislation subjected by these questions. The orange bar shows the number of countries that do not have legislation subjected by these questions.</p>
+
+  <p>When comparing group against groups, most countries has legislation protecting gender equality in mobility. Least countries has legislation protecting equality in parenthood. When comparing number of countries inside the groups, for mobility, each question has more than 80 percent of countries answering yes, showing legislation protecting gender equality is shared by significant amount of countries in the world. Workplace and Pay legislations are analyzed in previous section. In legislation of marriage, there is a decreasing pattern in answering yes to these questions over countries. One can infer that legislation of protecting equality in obedience, household, domestic violence, divorce and remarrying decreases in this order. Q4 in Parenthood, "Is there paid parental leave?", has a distinctive distribution, where countries answering no is more than two times countries answering yes. This means paid parental leave is still not accepted by a significant number of countries. Entrepreneurship also has a distinct pattern, while most countries answer yes in Q2, Q3 and Q4, less than half of countries answer yes in Q1, "Does the law prohibit discrimination in access to credit based on gender?". It shows that credit equality in gender is still not protected by legislation in more than half of the countries. For Assets and Pension, there is no clear pattern where one question has distinct answers.</p>
+
+  <p>In general, among groups of legislation of gender equality, mobility has the most protection, and parenthood has least protection. Several problems that has fewest number of countries that has legislation include: "Does the law mandate equal remuneration for work of equal value?", "Does the government administer 100 percent of maternity leave benefits?", "Is there paid parental leave?" and "Does the law prohibit discrimination in access to credit based on gender?". These are the problems that organizations promoting gender equality need to work on in the future.</p>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="scripts/myscript.js"></script>
+
+<script>
+const data = {
+  MOBILITY: {
+    questions: [
+      { question: "Q1", yes: 156, no: 34 },
+      { question: "Q2", yes: 176, no: 14 },
+      { question: "Q3", yes: 163, no: 27 },
+      { question: "Q4", yes: 180, no: 10 }
+    ],
+    caption: " Q1: Can a woman choose where to live in the same way as a man?\n Q2: Can a woman travel outside her home in the same way as a man?\n Q3: Can a woman apply for a passport in the same way as a man?\n Q4: Can a woman travel outside the country in the same way as a man?"
+  },
+  WORKPLACE: {
+    questions: [
+      { question: "Q1", yes: 171, no: 19 },
+      { question: "Q2", yes: 162, no: 28 },
+      { question: "Q3", yes: 151, no: 39 },
+      { question: "Q4", yes: 150, no: 40 }
+    ],
+    caption: " Q1: Can a woman get a job in the same way as a man?\n Q2: Does the law prohibit discrimination in employment based on gender?\n Q3: Is there legislation on sexual harassment in employment?\n Q4: Are there criminal penalties or civil remedies for sexual harassment in employment?"
+  },
+  Pay: {
+    questions: [
+      { question: "Q1", yes: 98, no: 92 },
+      { question: "Q2", yes: 170, no: 20 },
+      { question: "Q3", yes: 145, no: 45 },
+      { question: "Q4", yes: 131, no: 59 }
+    ],
+    caption: " Q1: Does the law mandate equal remuneration for work of equal value?\n Q2: Can a woman work at night in the same way as a man?\n Q3: Can a woman work in a job deemed dangerous in the same way as a man?\n Q4: Can a woman work in an industrial job in the same way as a man?"
+  },
+  MARRIAGE: {
+    questions: [
+      { question: "Q1", yes: 172, no: 18 },
+      { question: "Q2", yes: 162, no: 28 },
+      { question: "Q3", yes: 165, no: 25 },
+      { question: "Q4", yes: 145, no: 45 },
+      { question: "Q5", yes: 123, no: 67 }
+    ],
+    caption: " Q1: Is the law free of legal provisions that require a married woman to obey her husband?\n Q2: Can a woman be head of household in the same way as a man?\n Q3: Is there legislation specifically addressing domestic violence?\n Q4: Can a woman obtain a judgment of divorce in the same way as a man?\n Q5: Does a woman have the same rights to remarry as a man?"
+  },
+  PARENTHOOD: {
+    questions: [
+      { question: "Q1", yes: 123, no: 67 },
+      { question: "Q2", yes: 97, no: 93 },
+      { question: "Q3", yes: 123, no: 67 },
+      { question: "Q4", yes: 55, no: 135 },
+      { question: "Q5", yes: 154, no: 36 }
+    ],
+    caption: " Q1: Is paid leave of at least 14 weeks available to mothers?\n Q2: Does the government administer 100 percent of maternity leave benefits?\n Q3: Is there paid leave available to fathers?\n Q4: Is there paid parental leave?\n Q5: Is dismissal of pregnant workers prohibited?"
+  },
+  ENTREPRENEURSHIP: {
+    questions: [
+      { question: "Q1", yes: 94, no: 96 },
+      { question: "Q2", yes: 188, no: 2 },
+      { question: "Q3", yes: 185, no: 5 },
+      { question: "Q4", yes: 184, no: 6 }
+    ],
+    caption: " Q1: Does the law prohibit discrimination in access to credit based on gender?\n Q2: Can a woman sign a contract in the same way as a man?\n Q3: Can a woman register a business in the same way as a man?\n Q4: Can a woman open a bank account in the same way as a man?"
+  },
+  ASSETS: {
+  questions: [
+    { question: "Q1", yes: 171, no: 19 },
+    { question: "Q2", yes: 149, no: 41 },
+    { question: "Q3", yes: 147, no: 43 },
+    { question: "Q4", yes: 172, no: 18 },
+    { question: "Q5", yes: 134, no: 56 }
+  ],
+  caption: " Q1: Do women and men have equal ownership rights to immovable property?\n Q2: Do sons and daughters have equal rights to inherit assets from their parents?\n Q3: Do male and female surviving spouses have equal rights to inherit assets?\n Q4: Does the law grant spouses equal administrative authority over assets during marriage?\n Q5: Does the law provide for the valuation of nonmonetary contributions?"},
+  PENSION: {
+    questions: [
+      { question: "Q1", yes: 128, no: 62 },
+      { question: "Q2", yes: 154, no: 36 },
+      { question: "Q3", yes: 175, no: 15 },
+      { question: "Q4", yes: 109, no: 81 }
+    ],
+    caption: " Q1: Is the age at which women and men can retire with full pension benefits the same?\n Q2: Is the age at which women and men can retire with partial pension benefits the same?\n Q3: Is the mandatory retirement age for women and men the same?\n Q4: Are periods of absence due to childcare accounted for in pension benefits?"
+  }
+};
+
+// Initial setup
+const margin = { top: 20, right: 30, bottom: 60, left: 120 };
+const width = 800 - margin.left - margin.right;
+const height = 350 - margin.top - margin.bottom;
+
+
+// Create SVG
+const svg = d3.select("#plot")
+  .append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom + 40) // Add extra space for caption
+  .append("g")
+  .attr("transform", `translate(${margin.left},${margin.top})`);
+
+// Create scales
+const xScale = d3.scaleLinear().range([0, width]);
+const yScale = d3.scaleBand().range([0, height]).padding(0.2);
+const colorScale = d3.scaleOrdinal().domain(["yes", "no"]).range(["steelblue", "darkorange"]);
+
+svg.append("text")
+  .attr("class", "title")
+  .attr("x", width / 2) // Center the title horizontally
+  .attr("y", -margin.top / 2+10) // Place it above the graph
+  .attr("text-anchor", "middle") // Center align
+  .style("font-size", "18px") // Font size
+  .style("font-weight", "bold") // Bold font
+  .text("Countries with Legislation Promoting Equality");
+// Function to update chart
+function updateChart(category) {
+  const categoryData = data[category].questions;
+  const maxBandwidth = 50;
+
+  // Dynamically set yScale range
+  const yScale = d3.scaleBand()
+    .domain(categoryData.map(d => d.question))
+    .range([0, Math.min(height, categoryData.length * maxBandwidth)])
+    .padding(0.2);
+  const captionText = data[category].caption;
+  const maxYesNo = Math.max(...categoryData.map(d => Math.max(d.yes, d.no))); // Get the maximum of yes and no values
+  xScale.domain([0, maxYesNo]);
+
+  // Bind data
+  const bars = svg.selectAll(".bar-group")
+    .data(categoryData, d => d.question);
+
+  // Exit
+  bars.exit().remove();
+
+  // Enter
+  const barEnter = bars.enter()
+    .append("g")
+    .attr("class", "bar-group")
+    .attr("transform", d => `translate(0, ${yScale(d.question)})`);
+
+  barEnter.append("rect")
+  .attr("class", "bar-yes")
+  .attr("x", 0) // Horizontal position
+  .attr("y", 0) // Positioned at the top of the band
+  .attr("width", d => xScale(d.yes)) // Scaled width
+  .attr("height", yScale.bandwidth() / 2) // Half the bandwidth
+  .attr("fill", colorScale("yes"));
+  
+  barEnter.append("text")
+  .attr("class", "label-yes")
+  .attr("x", d => xScale(d.yes) + 5) // Position slightly to the right of the bar
+  .attr("y", yScale.bandwidth() / 4) // Center vertically within the bar
+  .attr("dy", ".35em") // Adjust for text baseline alignment
+  .attr("fill", "black") // Text color
+  .text(d => d.yes); // Display the "yes" value
+
+// Enter bars for "no" responses
+barEnter.append("rect")
+  .attr("class", "bar-no")
+  .attr("x", 0) // Horizontal position
+  .attr("y", yScale.bandwidth() / 2) // Positioned at the middle of the band
+  .attr("width", d => xScale(d.no)) // Scaled width
+  .attr("height", yScale.bandwidth() / 2) // Half the bandwidth
+  .attr("fill", colorScale("no"));
+  
+  barEnter.append("text")
+  .attr("class", "label-no")
+  .attr("x", d => xScale(d.no) + 5) // Position slightly to the right of the bar
+  .attr("y", (yScale.bandwidth() / 2) + yScale.bandwidth() / 4) // Center vertically within the bar
+  .attr("dy", ".35em") // Adjust for text baseline alignment
+  .attr("fill", "black") // Text color
+  .text(d => d.no); // Display the "no" value
+  
+  bars.select(".bar-yes")
+    .transition()
+    .duration(500)
+    .attr("width", d => xScale(d.yes));
+
+  // Update "yes" labels
+  bars.select(".label-yes")
+    .transition()
+    .duration(500)
+    .attr("x", d => xScale(d.yes) + 5)
+    .text(d => d.yes);
+
+  // Update "no" bars
+  bars.select(".bar-no")
+    .transition()
+    .duration(500)
+    .attr("width", d => xScale(d.no));
+
+  // Update "no" labels
+  bars.select(".label-no")
+    .transition()
+    .duration(500)
+    .attr("x", d => xScale(d.no) + 5)
+    .text(d => d.no);
+
+
+  barEnter.append("text")
+    .attr("class", "label")
+    .attr("x", -10)
+    .attr("y", yScale.bandwidth() / 2)
+    .attr("dy", ".35em")
+    .attr("text-anchor", "end")
+    .text(d => d.question);
+
+  // Update
+ bars.select(".bar-yes")
+    .transition()
+    .duration(500)
+    .attr("width", d => xScale(d.yes));
+
+  // Update "yes" labels
+  bars.select(".label-yes")
+    .transition()
+    .duration(500)
+    .attr("x", d => xScale(d.yes) + 5)
+    .text(d => d.yes);
+
+  // Update "no" bars
+  bars.select(".bar-no")
+    .transition()
+    .duration(500)
+    .attr("width", d => xScale(d.no));
+
+  // Update "no" labels
+  bars.select(".label-no")
+    .transition()
+    .duration(500)
+    .attr("x", d => xScale(d.no) + 5)
+    .text(d => d.no);
+
+
+  // Update caption
+  svg.select(".caption").remove(); // Remove the previous caption
+
+// Add multi-line caption
+  const caption = svg.append("text")
+  .attr("class", "caption")
+  .attr("x", 0)
+  .attr("y", height + margin.bottom - 30) // Start higher to allow space for multiple lines
+  .attr("text-anchor", "start")
+  .style("font-size", "14px");
+
+// Split the caption into lines and append each as a <tspan>
+  captionText.split('\n').forEach((line, index) => {
+    caption.append("tspan")
+      .attr("x", 0) // Align all lines to the left
+      .attr("dy", index === 0 ? 0 : "1.2em") // Offset subsequent lines
+      .text(line);
+})
+}
+
+// Add buttons
+const categories = Object.keys(data);
+const buttonContainer = d3.select("#plot")
+  .append("div")
+  .attr("id", "buttons");
+
+categories.forEach(category => {
+  buttonContainer.append("button")
+    .text(category)
+    .on("click", () => updateChart(category));
+});
+
+// Add legend (color panel)
+const legend = d3.select("#plot")
+  .append("div")
+  .attr("id", "legend");
+
+legend.append("div")
+  .style("display", "flex")
+  .style("align-items", "center")
+  .html(`
+    <span style="display:inline-block; width:20px; height:20px; background-color:steelblue; margin-right:5px;"></span>
+    Yes
+  `);
+
+// Add 'No' legend item
+legend.append("div")
+  .style("display", "flex")
+  .style("align-items", "center")
+  .html(`
+    <span style="display:inline-block; width:20px; height:20px; background-color:darkorange; margin-right:5px;"></span>
+    No
+  `);
+// Initialize chart
+updateChart("MOBILITY");
+</script>
+

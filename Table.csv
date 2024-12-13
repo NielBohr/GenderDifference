@@ -1,0 +1,781 @@
+Year,New Methodology Implemented,New Processing Implemented,group,value
+2017,外,内,Total Women,"50,250"
+2017,外,内,Total Men,"61,530"
+2017,外,内,White Women,"53,270"
+2017,外,内,White Men,"63,410"
+2017,外,内,Black Women,"43,630"
+2017,外,内,Black Men,"49,200"
+2017,外,内,Asian Women,"61,270"
+2017,外,内,Asian Men,"80,020"
+2017,外,内,Hispanic Women,"37,910"
+2017,外,内,Hispanic Men,"44,340"
+2017,外,内,"White, non-Hispanic Women","55,990"
+2017,外,内,"White, non-Hispanic Men","71,230"
+2018,外,内,Total Women,"52,130"
+2018,外,内,Total Men,"63,910"
+2018,外,内,White Women,"52,900"
+2018,外,内,White Men,"65,150"
+2018,外,内,Black Women,"43,960"
+2018,外,内,Black Men,"51,300"
+2018,外,内,Asian Women,"64,230"
+2018,外,内,Asian Men,"81,350"
+2018,外,内,Hispanic Women,"38,770"
+2018,外,内,Hispanic Men,"46,240"
+2018,外,内,"White, non-Hispanic Women","55,930"
+2018,外,内,"White, non-Hispanic Men","71,170"
+2019,外,内,Total Women,"53,870"
+2019,外,内,Total Men,"65,440"
+2019,外,内,White Women,"55,630"
+2019,外,内,White Men,"68,360"
+2019,外,内,Black Women,"46,810"
+2019,外,内,Black Men,"51,990"
+2019,外,内,Asian Women,"64,700"
+2019,外,内,Asian Men,"86,190"
+2019,外,内,Hispanic Women,"41,130"
+2019,外,内,Hispanic Men,"47,290"
+2019,外,内,"White, non-Hispanic Women","58,460"
+2019,外,内,"White, non-Hispanic Men","74,270"
+2020,外,内,Total Women,"57,500"
+2020,外,内,Total Men,"69,160"
+2020,外,内,White Women,"57,890"
+2020,外,内,White Men,"69,750"
+2020,外,内,Black Women,"48,730"
+2020,外,内,Black Men,"56,920"
+2020,外,内,Asian Women,"77,230"
+2020,外,内,Asian Men,"92,970"
+2020,外,内,Hispanic Women,"43,670"
+2020,外,内,Hispanic Men,"50,780"
+2020,外,内,"White, non-Hispanic Women","60,700"
+2020,外,内,"White, non-Hispanic Men","76,020"
+2021,外,内,Total Women,"55,240"
+2021,外,内,Total Men,"65,970"
+2021,外,内,White Women,"55,480"
+2021,外,内,White Men,"66,570"
+2021,外,内,Black Women,"50,190"
+2021,外,内,Black Men,"54,120"
+2021,外,内,Asian Women,"68,870"
+2021,外,内,Asian Men,"88,200"
+2021,外,内,Hispanic Women,"42,600"
+2021,外,内,Hispanic Men,"49,410"
+2021,外,内,"White, non-Hispanic Women","59,660"
+2021,外,内,"White, non-Hispanic Men","74,660"
+2022,外,内,Total Women,"52,360"
+2022,外,内,Total Men,"62,350"
+2022,外,内,White Women,"53,120"
+2022,外,内,White Men,"65,110"
+2022,外,内,Black Women,"49,470"
+2022,外,内,Black Men,"51,640"
+2022,外,内,Asian Women,"70,580"
+2022,外,内,Asian Men,"87,410"
+2022,外,内,Hispanic Women,"41,140"
+2022,外,内,Hispanic Men,"47,420"
+2022,外,内,"White, non-Hispanic Women","57,250"
+2022,外,内,"White, non-Hispanic Men","71,590"
+2013,内,外,Total Women,"47,590"
+2013,内,外,Total Men,"61,360"
+2013,内,外,White Women,"49,270"
+2013,内,外,White Men,"62,160"
+2013,内,外,Black Women,"39,810"
+2013,内,外,Black Men,"48,010"
+2013,内,外,Asian Women,"55,620"
+2013,内,外,Asian Men,"70,320"
+2013,内,外,Hispanic Women,"37,620"
+2013,内,外,Hispanic Men,"39,360"
+2013,内,外,"White, non-Hispanic Women","50,590"
+2013,内,外,"White, non-Hispanic Men","67,650"
+2014,内,外,Total Women,"47,930"
+2014,内,外,Total Men,"60,940"
+2014,内,外,White Women,"48,920"
+2014,内,外,White Men,"61,720"
+2014,内,外,Black Women,"40,560"
+2014,内,外,Black Men,"49,250"
+2014,内,外,Asian Women,"56,050"
+2014,内,外,Asian Men,"68,880"
+2014,内,外,Hispanic Women,"36,640"
+2014,内,外,Hispanic Men,"41,770"
+2014,内,外,"White, non-Hispanic Women","50,590"
+2014,内,外,"White, non-Hispanic Men","67,100"
+2015,内,外,Total Women,"49,320"
+2015,内,外,Total Men,"61,990"
+2015,内,外,White Women,"49,890"
+2015,内,外,White Men,"62,760"
+2015,内,外,Black Women,"43,820"
+2015,内,外,Black Men,"49,760"
+2015,内,外,Asian Women,"58,670"
+2015,内,外,Asian Men,"75,030"
+2015,内,外,Hispanic Women,"37,660"
+2015,内,外,Hispanic Men,"43,180"
+2015,内,外,"White, non-Hispanic Women","52,130"
+2015,内,外,"White, non-Hispanic Men","69,250"
+2016,内,外,Total Women,"49,860"
+2016,内,外,Total Men,"61,960"
+2016,内,外,White Women,"50,520"
+2016,内,外,White Men,"62,660"
+2016,内,外,Black Women,"43,470"
+2016,内,外,Black Men,"49,550"
+2016,内,外,Asian Women,"60,730"
+2016,内,外,Asian Men,"78,710"
+2016,内,外,Hispanic Women,"37,820"
+2016,内,外,Hispanic Men,"44,820"
+2016,内,外,"White, non-Hispanic Women","54,880"
+2016,内,外,"White, non-Hispanic Men","69,500"
+2017,内,外,Total Women,"49,500"
+2017,内,外,Total Men,"61,490"
+2017,内,外,White Women,"50,670"
+2017,内,外,White Men,"63,100"
+2017,内,外,Black Women,"43,320"
+2017,内,外,Black Men,"49,610"
+2017,内,外,Asian Women,"60,580"
+2017,内,外,Asian Men,"79,800"
+2017,内,外,Hispanic Women,"37,740"
+2017,内,外,Hispanic Men,"45,840"
+2017,内,外,"White, non-Hispanic Women","54,850"
+2017,内,外,"White, non-Hispanic Men","71,210"
+1960,外,外,Total Women,"26,560"
+1960,外,外,Total Men,"43,770"
+1960,外,外,White Women,
+1960,外,外,White Men,
+1960,外,外,Black Women,
+1960,外,外,Black Men,
+1960,外,外,Asian Women,
+1960,外,外,Asian Men,
+1960,外,外,Hispanic Women,
+1960,外,外,Hispanic Men,
+1960,外,外,"White, non-Hispanic Women",
+1960,外,外,"White, non-Hispanic Men",
+1961,外,外,Total Women,"26,770"
+1961,外,外,Total Men,"45,170"
+1961,外,外,White Women,
+1961,外,外,White Men,
+1961,外,外,Black Women,
+1961,外,外,Black Men,
+1961,外,外,Asian Women,
+1961,外,外,Asian Men,
+1961,外,外,Hispanic Women,
+1961,外,外,Hispanic Men,
+1961,外,外,"White, non-Hispanic Women",
+1961,外,外,"White, non-Hispanic Men",
+1962,外,外,Total Women,"27,280"
+1962,外,外,Total Men,"46,000"
+1962,外,外,White Women,
+1962,外,外,White Men,
+1962,外,外,Black Women,
+1962,外,外,Black Men,
+1962,外,外,Asian Women,
+1962,外,外,Asian Men,
+1962,外,外,Hispanic Women,
+1962,外,外,Hispanic Men,
+1962,外,外,"White, non-Hispanic Women",
+1962,外,外,"White, non-Hispanic Men",
+1963,外,外,Total Women,"27,780"
+1963,外,外,Total Men,"47,120"
+1963,外,外,White Women,
+1963,外,外,White Men,
+1963,外,外,Black Women,
+1963,外,外,Black Men,
+1963,外,外,Asian Women,
+1963,外,外,Asian Men,
+1963,外,外,Hispanic Women,
+1963,外,外,Hispanic Men,
+1963,外,外,"White, non-Hispanic Women",
+1963,外,外,"White, non-Hispanic Men",
+1964,外,外,Total Women,"28,640"
+1964,外,外,Total Men,"48,410"
+1964,外,外,White Women,
+1964,外,外,White Men,
+1964,外,外,Black Women,
+1964,外,外,Black Men,
+1964,外,外,Asian Women,
+1964,外,外,Asian Men,
+1964,外,外,Hispanic Women,
+1964,外,外,Hispanic Men,
+1964,外,外,"White, non-Hispanic Women",
+1964,外,外,"White, non-Hispanic Men",
+1965,外,外,Total Women,"29,320"
+1965,外,外,Total Men,"48,930"
+1965,外,外,White Women,
+1965,外,外,White Men,
+1965,外,外,Black Women,
+1965,外,外,Black Men,
+1965,外,外,Asian Women,
+1965,外,外,Asian Men,
+1965,外,外,Hispanic Women,
+1965,外,外,Hispanic Men,
+1965,外,外,"White, non-Hispanic Women",
+1965,外,外,"White, non-Hispanic Men",
+1966,外,外,Total Women,"29,400"
+1966,外,外,Total Men,"51,080"
+1966,外,外,White Women,
+1966,外,外,White Men,
+1966,外,外,Black Women,
+1966,外,外,Black Men,
+1966,外,外,Asian Women,
+1966,外,外,Asian Men,
+1966,外,外,Hispanic Women,
+1966,外,外,Hispanic Men,
+1966,外,外,"White, non-Hispanic Women",
+1966,外,外,"White, non-Hispanic Men",
+1967,外,外,Total Women,"29,960"
+1967,外,外,Total Men,"51,860"
+1967,外,外,White Women,"30,900"
+1967,外,外,White Men,"53,400"
+1967,外,外,Black Women,"23,060"
+1967,外,外,Black Men,"34,490"
+1967,外,外,Asian Women,
+1967,外,外,Asian Men,
+1967,外,外,Hispanic Women,
+1967,外,外,Hispanic Men,
+1967,外,外,"White, non-Hispanic Women",
+1967,外,外,"White, non-Hispanic Men",
+1968,外,外,Total Women,"30,950"
+1968,外,外,Total Men,"53,230"
+1968,外,外,White Women,"31,810"
+1968,外,外,White Men,"54,660"
+1968,外,外,Black Women,"24,220"
+1968,外,外,Black Men,"36,910"
+1968,外,外,Asian Women,
+1968,外,外,Asian Men,
+1968,外,外,Hispanic Women,
+1968,外,外,Hispanic Men,
+1968,外,外,"White, non-Hispanic Women",
+1968,外,外,"White, non-Hispanic Men",
+1969,外,外,Total Women,"33,160"
+1969,外,外,Total Men,"54,810"
+1969,外,外,White Women,"33,830"
+1969,外,外,White Men,"58,200"
+1969,外,外,Black Women,"26,710"
+1969,外,外,Black Men,"39,180"
+1969,外,外,Asian Women,
+1969,外,外,Asian Men,
+1969,外,外,Hispanic Women,
+1969,外,外,Hispanic Men,
+1969,外,外,"White, non-Hispanic Women",
+1969,外,外,"White, non-Hispanic Men",
+1970,外,外,Total Women,"33,820"
+1970,外,外,Total Men,"56,960"
+1970,外,外,White Women,"34,380"
+1970,外,外,White Men,"58,590"
+1970,外,外,Black Women,"28,250"
+1970,外,外,Black Men,"40,450"
+1970,外,外,Asian Women,
+1970,外,外,Asian Men,
+1970,外,外,Hispanic Women,
+1970,外,外,Hispanic Men,
+1970,外,外,"White, non-Hispanic Women",
+1970,外,外,"White, non-Hispanic Men",
+1971,外,外,Total Women,"34,080"
+1971,外,外,Total Men,"57,270"
+1971,外,外,White Women,"34,430"
+1971,外,外,White Men,"58,850"
+1971,外,外,Black Women,"30,550"
+1971,外,外,Black Men,"40,630"
+1971,外,外,Asian Women,
+1971,外,外,Asian Men,
+1971,外,外,Hispanic Women,
+1971,外,外,Hispanic Men,
+1971,外,外,"White, non-Hispanic Women",
+1971,外,外,"White, non-Hispanic Men",
+1972,外,外,Total Women,"34,800"
+1972,外,外,Total Men,"60,150"
+1972,外,外,White Women,"35,360"
+1972,外,外,White Men,"62,450"
+1972,外,外,Black Women,"30,350"
+1972,外,外,Black Men,"43,040"
+1972,外,外,Asian Women,
+1972,外,外,Asian Men,
+1972,外,外,Hispanic Women,
+1972,外,外,Hispanic Men,
+1972,外,外,"White, non-Hispanic Women",
+1972,外,外,"White, non-Hispanic Men",
+1973,外,外,Total Women,"35,200"
+1973,外,外,Total Men,"62,150"
+1973,外,外,White Women,"35,750"
+1973,外,外,White Men,"63,980"
+1973,外,外,Black Women,"30,490"
+1973,外,外,Black Men,"43,780"
+1973,外,外,Asian Women,
+1973,外,外,Asian Men,
+1973,外,外,Hispanic Women,
+1973,外,外,Hispanic Men,
+1973,外,外,"White, non-Hispanic Women",
+1973,外,外,"White, non-Hispanic Men",
+1974,外,外,Total Women,"35,260"
+1974,外,外,Total Men,"60,010"
+1974,外,外,White Women,"35,510"
+1974,外,外,White Men,"61,300"
+1974,外,外,Black Women,"33,200"
+1974,外,外,Black Men,"44,100"
+1974,外,外,Asian Women,
+1974,外,外,Asian Men,
+1974,外,外,Hispanic Women,"29,970"
+1974,外,外,Hispanic Men,"44,950"
+1974,外,外,"White, non-Hispanic Women",
+1974,外,外,"White, non-Hispanic Men",
+1975,外,外,Total Women,"35,040"
+1975,外,外,Total Men,"59,570"
+1975,外,外,White Women,"35,080"
+1975,外,外,White Men,"60,960"
+1975,外,外,Black Women,"33,790"
+1975,外,外,Black Men,"45,330"
+1975,外,外,Asian Women,
+1975,外,外,Asian Men,
+1975,外,外,Hispanic Women,"30,030"
+1975,外,外,Hispanic Men,"43,950"
+1975,外,外,"White, non-Hispanic Women",
+1975,外,外,"White, non-Hispanic Men",
+1976,外,外,Total Women,"35,780"
+1976,外,外,Total Men,"59,440"
+1976,外,外,White Women,"36,020"
+1976,外,外,White Men,"61,020"
+1976,外,外,Black Women,"33,800"
+1976,外,外,Black Men,"44,670"
+1976,外,外,Asian Women,
+1976,外,外,Asian Men,
+1976,外,外,Hispanic Women,"30,830"
+1976,外,外,Hispanic Men,"45,360"
+1976,外,外,"White, non-Hispanic Women",
+1976,外,外,"White, non-Hispanic Men",
+1977,外,外,Total Women,"35,760"
+1977,外,外,Total Men,"60,690"
+1977,外,外,White Women,"35,980"
+1977,外,外,White Men,"62,490"
+1977,外,外,Black Women,"33,600"
+1977,外,外,Black Men,"43,340"
+1977,外,外,Asian Women,
+1977,外,外,Asian Men,
+1977,外,外,Hispanic Women,"31,190"
+1977,外,外,Hispanic Men,"44,770"
+1977,外,外,"White, non-Hispanic Women",
+1977,外,外,"White, non-Hispanic Men",
+1978,外,外,Total Women,"36,310"
+1978,外,外,Total Men,"61,090"
+1978,外,外,White Women,"36,610"
+1978,外,外,White Men,"62,120"
+1978,外,外,Black Women,"34,260"
+1978,外,外,Black Men,"47,940"
+1978,外,外,Asian Women,
+1978,外,外,Asian Men,
+1978,外,外,Hispanic Women,"31,360"
+1978,外,外,Hispanic Men,"45,580"
+1978,外,外,"White, non-Hispanic Women",
+1978,外,外,"White, non-Hispanic Men",
+1979,外,外,Total Women,"36,010"
+1979,外,外,Total Men,"60,360"
+1979,外,外,White Women,"36,290"
+1979,外,外,White Men,"61,740"
+1979,外,外,Black Women,"33,430"
+1979,外,外,Black Men,"44,840"
+1979,外,外,Asian Women,
+1979,外,外,Asian Men,
+1979,外,外,Hispanic Women,"29,950"
+1979,外,外,Hispanic Men,"43,920"
+1979,外,外,"White, non-Hispanic Women",
+1979,外,外,"White, non-Hispanic Men",
+1980,外,外,Total Women,"35,770"
+1980,外,外,Total Men,"59,460"
+1980,外,外,White Women,"36,030"
+1980,外,外,White Men,"61,210"
+1980,外,外,Black Women,"34,100"
+1980,外,外,Black Men,"43,280"
+1980,外,外,Asian Women,
+1980,外,外,Asian Men,
+1980,外,外,Hispanic Women,"30,920"
+1980,外,外,Hispanic Men,"43,320"
+1980,外,外,"White, non-Hispanic Women",
+1980,外,外,"White, non-Hispanic Men",
+1981,外,外,Total Women,"35,000"
+1981,外,外,Total Men,"59,090"
+1981,外,外,White Women,"35,310"
+1981,外,外,White Men,"60,390"
+1981,外,外,Black Women,"32,660"
+1981,外,外,Black Men,"42,950"
+1981,外,外,Asian Women,
+1981,外,外,Asian Men,
+1981,外,外,Hispanic Women,"31,290"
+1981,外,外,Hispanic Men,"42,930"
+1981,外,外,"White, non-Hispanic Women",
+1981,外,外,"White, non-Hispanic Men",
+1982,外,外,Total Women,"35,790"
+1982,外,外,Total Men,"57,960"
+1982,外,外,White Women,"36,190"
+1982,外,外,White Men,"59,410"
+1982,外,外,Black Women,"33,360"
+1982,外,外,Black Men,"42,630"
+1982,外,外,Asian Women,
+1982,外,外,Asian Men,
+1982,外,外,Hispanic Women,"30,560"
+1982,外,外,Hispanic Men,"42,300"
+1982,外,外,"White, non-Hispanic Women",
+1982,外,外,"White, non-Hispanic Men",
+1983,外,外,Total Women,"36,730"
+1983,外,外,Total Men,"57,750"
+1983,外,外,White Women,"37,120"
+1983,外,外,White Men,"59,170"
+1983,外,外,Black Women,"33,490"
+1983,外,外,Black Men,"42,630"
+1983,外,外,Asian Women,
+1983,外,外,Asian Men,
+1983,外,外,Hispanic Women,"30,790"
+1983,外,外,Hispanic Men,"42,680"
+1983,外,外,"White, non-Hispanic Women",
+1983,外,外,"White, non-Hispanic Men",
+1984,外,外,Total Women,"37,440"
+1984,外,外,Total Men,"58,820"
+1984,外,外,White Women,"37,760"
+1984,外,外,White Men,"60,700"
+1984,外,外,Black Women,"34,760"
+1984,外,外,Black Men,"42,140"
+1984,外,外,Asian Women,
+1984,外,外,Asian Men,
+1984,外,外,Hispanic Women,"31,780"
+1984,外,外,Hispanic Men,"42,910"
+1984,外,外,"White, non-Hispanic Women",
+1984,外,外,"White, non-Hispanic Men",
+1985,外,外,Total Women,"38,280"
+1985,外,外,Total Men,"59,280"
+1985,外,外,White Women,"38,700"
+1985,外,外,White Men,"61,400"
+1985,外,外,Black Women,"35,050"
+1985,外,外,Black Men,"42,820"
+1985,外,外,Asian Women,
+1985,外,外,Asian Men,
+1985,外,外,Hispanic Women,"32,010"
+1985,外,外,Hispanic Men,"41,770"
+1985,外,外,"White, non-Hispanic Women",
+1985,外,外,"White, non-Hispanic Men",
+1986,外,外,Total Women,"39,120"
+1986,外,外,Total Men,"60,870"
+1986,外,外,White Women,"39,580"
+1986,外,外,White Men,"62,490"
+1986,外,外,Black Women,"35,510"
+1986,外,外,Black Men,"44,200"
+1986,外,外,Asian Women,
+1986,外,外,Asian Men,
+1986,外,外,Hispanic Women,"33,350"
+1986,外,外,Hispanic Men,"40,530"
+1986,外,外,"White, non-Hispanic Women",
+1986,外,外,"White, non-Hispanic Men",
+1987,外,外,Total Women,"39,430"
+1987,外,外,Total Men,"60,490"
+1987,外,外,White Women,"39,810"
+1987,外,外,White Men,"61,850"
+1987,外,外,Black Women,"36,720"
+1987,外,外,Black Men,"44,580"
+1987,外,外,Asian Women,
+1987,外,外,Asian Men,
+1987,外,外,Hispanic Women,"33,860"
+1987,外,外,Hispanic Men,"40,650"
+1987,外,外,"White, non-Hispanic Women","40,240"
+1987,外,外,"White, non-Hispanic Men","63,350"
+1988,外,外,Total Women,"39,580"
+1988,外,外,Total Men,"59,930"
+1988,外,外,White Women,"40,060"
+1988,外,外,White Men,"61,220"
+1988,外,外,Black Women,"37,180"
+1988,外,外,Black Men,"45,800"
+1988,外,外,Asian Women,"43,500"
+1988,外,外,Asian Men,"60,980"
+1988,外,外,Hispanic Women,"33,380"
+1988,外,外,Hispanic Men,"40,130"
+1988,外,外,"White, non-Hispanic Women","40,730"
+1988,外,外,"White, non-Hispanic Men","63,530"
+1989,外,外,Total Women,"40,420"
+1989,外,外,Total Men,"58,860"
+1989,外,外,White Women,"40,750"
+1989,外,外,White Men,"61,470"
+1989,外,外,Black Women,"37,450"
+1989,外,外,Black Men,"43,990"
+1989,外,外,Asian Women,"46,010"
+1989,外,外,Asian Men,"60,630"
+1989,外,外,Hispanic Women,"33,730"
+1989,外,外,Hispanic Men,"39,540"
+1989,外,外,"White, non-Hispanic Women","41,440"
+1989,外,外,"White, non-Hispanic Men","64,540"
+1990,外,外,Total Women,"40,710"
+1990,外,外,Total Men,"56,850"
+1990,外,外,White Women,"41,180"
+1990,外,外,White Men,"59,320"
+1990,外,外,Black Women,"37,050"
+1990,外,外,Black Men,"43,370"
+1990,外,外,Asian Women,"43,800"
+1990,外,外,Asian Men,"54,970"
+1990,外,外,Hispanic Women,"32,190"
+1990,外,外,Hispanic Men,"39,300"
+1990,外,外,"White, non-Hispanic Women","41,810"
+1990,外,外,"White, non-Hispanic Men","61,890"
+1991,外,外,Total Women,"40,730"
+1991,外,外,Total Men,"58,310"
+1991,外,外,White Women,"41,210"
+1991,外,外,White Men,"59,980"
+1991,外,外,Black Women,"37,100"
+1991,外,外,Black Men,"43,750"
+1991,外,外,Asian Women,"41,960"
+1991,外,外,Asian Men,"59,770"
+1991,外,外,Hispanic Women,"32,190"
+1991,外,外,Hispanic Men,"39,180"
+1991,外,外,"White, non-Hispanic Women","41,810"
+1991,外,外,"White, non-Hispanic Men","61,530"
+1992,外,外,Total Women,"41,310"
+1992,外,外,Total Men,"58,360"
+1992,外,外,White Women,"41,740"
+1992,外,外,White Men,"59,640"
+1992,外,外,Black Women,"38,200"
+1992,外,外,Black Men,"43,290"
+1992,外,外,Asian Women,"44,070"
+1992,外,外,Asian Men,"58,990"
+1992,外,外,Hispanic Women,"33,020"
+1992,外,外,Hispanic Men,"37,770"
+1992,外,外,"White, non-Hispanic Women","42,320"
+1992,外,外,"White, non-Hispanic Men","61,310"
+1993,外,外,Total Women,"41,020"
+1993,外,外,Total Men,"57,350"
+1993,外,外,White Women,"41,540"
+1993,外,外,White Men,"58,640"
+1993,外,外,Black Women,"37,370"
+1993,外,外,Black Men,"43,420"
+1993,外,外,Asian Women,"45,920"
+1993,外,外,Asian Men,"58,290"
+1993,外,外,Hispanic Women,"31,610"
+1993,外,外,Hispanic Men,"38,000"
+1993,外,外,"White, non-Hispanic Women","42,220"
+1993,外,外,"White, non-Hispanic Men","60,300"
+1994,外,外,Total Women,"40,980"
+1994,外,外,Total Men,"56,950"
+1994,外,外,White Women,"41,760"
+1994,外,外,White Men,"58,320"
+1994,外,外,Black Women,"36,750"
+1994,外,外,Black Men,"43,820"
+1994,外,外,Asian Women,"45,130"
+1994,外,外,Asian Men,"59,180"
+1994,外,外,Hispanic Women,"32,430"
+1994,外,外,Hispanic Men,"37,490"
+1994,外,外,"White, non-Hispanic Women","42,810"
+1994,外,外,"White, non-Hispanic Men","60,240"
+1995,外,外,Total Women,"40,560"
+1995,外,外,Total Men,"56,790"
+1995,外,外,White Women,"41,310"
+1995,外,外,White Men,"58,010"
+1995,外,外,Black Women,"37,260"
+1995,外,外,Black Men,"44,050"
+1995,外,外,Asian Women,"44,860"
+1995,外,外,Asian Men,"56,930"
+1995,外,外,Hispanic Women,"30,970"
+1995,外,外,Hispanic Men,"36,750"
+1995,外,外,"White, non-Hispanic Women","42,660"
+1995,外,外,"White, non-Hispanic Men","62,030"
+1996,外,外,Total Women,"41,650"
+1996,外,外,Total Men,"56,470"
+1996,外,外,White Women,"42,440"
+1996,外,外,White Men,"57,910"
+1996,外,外,Black Women,"37,720"
+1996,外,外,Black Men,"46,380"
+1996,外,外,Asian Women,"44,890"
+1996,外,外,Asian Men,"60,520"
+1996,外,外,Hispanic Women,"32,790"
+1996,外,外,Hispanic Men,"36,990"
+1996,外,外,"White, non-Hispanic Women","43,720"
+1996,外,外,"White, non-Hispanic Men","62,260"
+1997,外,外,Total Women,"42,950"
+1997,外,外,Total Men,"57,910"
+1997,外,外,White Women,"43,570"
+1997,外,外,White Men,"60,530"
+1997,外,外,Black Women,"37,900"
+1997,外,外,Black Men,"45,460"
+1997,外,外,Asian Women,"47,780"
+1997,外,外,Asian Men,"59,650"
+1997,外,外,Hispanic Women,"32,630"
+1997,外,外,Hispanic Men,"37,170"
+1997,外,外,"White, non-Hispanic Women","44,570"
+1997,外,外,"White, non-Hispanic Men","62,940"
+1998,外,外,Total Women,"43,880"
+1998,外,外,Total Men,"59,970"
+1998,外,外,White Women,"44,530"
+1998,外,外,White Men,"61,370"
+1998,外,外,Black Women,"38,430"
+1998,外,外,Black Men,"45,900"
+1998,外,外,Asian Women,"45,930"
+1998,外,外,Asian Men,"59,090"
+1998,外,外,Hispanic Women,"32,610"
+1998,外,外,Hispanic Men,"37,810"
+1998,外,外,"White, non-Hispanic Women","45,610"
+1998,外,外,"White, non-Hispanic Men","64,020"
+1999,外,外,Total Women,"43,740"
+1999,外,外,Total Men,"60,490"
+1999,外,外,White Women,"44,290"
+1999,外,外,White Men,"61,820"
+1999,外,外,Black Women,"40,270"
+1999,外,外,Black Men,"49,430"
+1999,外,外,Asian Women,"47,490"
+1999,外,外,Asian Men,"61,330"
+1999,外,外,Hispanic Women,"32,220"
+1999,外,外,Hispanic Men,"37,270"
+1999,外,外,"White, non-Hispanic Women","45,600"
+1999,外,外,"White, non-Hispanic Men","67,230"
+2000,外,外,Total Women,"44,130"
+2000,外,外,Total Men,"59,860"
+2000,外,外,White Women,"45,380"
+2000,外,外,White Men,"62,080"
+2000,外,外,Black Women,"40,320"
+2000,外,外,Black Men,"48,370"
+2000,外,外,Asian Women,"48,970"
+2000,外,外,Asian Men,"65,170"
+2000,外,外,Hispanic Women,"33,200"
+2000,外,外,Hispanic Men,"38,210"
+2000,外,外,"White, non-Hispanic Women","47,940"
+2000,外,外,"White, non-Hispanic Men","66,280"
+2001,外,外,Total Women,"45,910"
+2001,外,外,Total Men,"60,150"
+2001,外,外,White Women,"47,030"
+2001,外,外,White Men,"62,600"
+2001,外,外,Black Women,"41,790"
+2001,外,外,Black Men,"49,270"
+2001,外,外,Asian Women,"48,220"
+2001,外,外,Asian Men,"65,770"
+2001,外,外,Hispanic Women,"33,780"
+2001,外,外,Hispanic Men,"39,420"
+2001,外,外,"White, non-Hispanic Women","48,400"
+2001,外,外,"White, non-Hispanic Men","65,500"
+2002,外,外,Total Women,"46,880"
+2002,外,外,Total Men,"61,200"
+2002,外,外,White Women,"47,430"
+2002,外,外,White Men,"62,920"
+2002,外,外,Black Women,"41,720"
+2002,外,外,Black Men,"48,760"
+2002,外,外,Asian Women,"48,790"
+2002,外,外,Asian Men,"65,000"
+2002,外,外,Hispanic Women,"34,010"
+2002,外,外,Hispanic Men,"40,310"
+2002,外,外,"White, non-Hispanic Women","48,740"
+2002,外,外,"White, non-Hispanic Men","65,930"
+2003,外,外,Total Women,"46,710"
+2003,外,外,Total Men,"61,830"
+2003,外,外,White Women,"47,390"
+2003,外,外,White Men,"62,660"
+2003,外,外,Black Women,"41,000"
+2003,外,外,Black Men,"49,020"
+2003,外,外,Asian Women,"49,550"
+2003,外,外,Asian Men,"69,300"
+2003,外,外,Hispanic Women,"34,000"
+2003,外,外,Hispanic Men,"39,660"
+2003,外,外,"White, non-Hispanic Women","48,740"
+2003,外,外,"White, non-Hispanic Men","68,050"
+2004,外,外,Total Women,"46,340"
+2004,外,外,Total Men,"60,510"
+2004,外,外,White Women,"46,920"
+2004,外,外,White Men,"61,630"
+2004,外,外,Black Women,"41,140"
+2004,外,外,Black Men,"46,410"
+2004,外,外,Asian Women,"53,400"
+2004,外,外,Asian Men,"68,220"
+2004,外,外,Hispanic Women,"34,820"
+2004,外,外,Hispanic Men,"39,540"
+2004,外,外,"White, non-Hispanic Women","48,240"
+2004,外,外,"White, non-Hispanic Men","67,550"
+2005,外,外,Total Women,"45,920"
+2005,外,外,Total Men,"59,660"
+2005,外,外,White Women,"46,380"
+2005,外,外,White Men,"60,520"
+2005,外,外,Black Women,"42,770"
+2005,外,外,Black Men,"47,680"
+2005,外,外,Asian Women,"52,030"
+2005,外,外,Asian Men,"69,290"
+2005,外,外,Hispanic Women,"34,910"
+2005,外,外,Hispanic Men,"38,590"
+2005,外,外,"White, non-Hispanic Women","49,180"
+2005,外,外,"White, non-Hispanic Men","66,940"
+2006,外,外,Total Women,"45,550"
+2006,外,外,Total Men,"59,200"
+2006,外,外,White Women,"47,300"
+2006,外,外,White Men,"61,850"
+2006,外,外,Black Women,"42,520"
+2006,外,外,Black Men,"48,710"
+2006,外,外,Asian Women,"55,070"
+2006,外,外,Asian Men,"72,060"
+2006,外,外,Hispanic Women,"35,300"
+2006,外,外,Hispanic Men,"40,710"
+2006,外,外,"White, non-Hispanic Women","50,060"
+2006,外,外,"White, non-Hispanic Men","67,830"
+2007,外,外,Total Women,"47,940"
+2007,外,外,Total Men,"61,620"
+2007,外,外,White Women,"48,540"
+2007,外,外,White Men,"62,840"
+2007,外,外,Black Women,"42,350"
+2007,外,外,Black Men,"49,260"
+2007,外,外,Asian Women,"55,140"
+2007,外,外,Asian Men,"69,260"
+2007,外,外,Hispanic Women,"36,350"
+2007,外,外,Hispanic Men,"41,250"
+2007,外,外,"White, non-Hispanic Women","50,190"
+2007,外,外,"White, non-Hispanic Men","68,740"
+2008,外,外,Total Women,"47,100"
+2008,外,外,Total Men,"61,090"
+2008,外,外,White Women,"47,690"
+2008,外,外,White Men,"62,410"
+2008,外,外,Black Women,"41,490"
+2008,外,外,Black Men,"49,160"
+2008,外,外,Asian Women,"55,620"
+2008,外,外,Asian Men,"67,640"
+2008,外,外,Hispanic Women,"35,370"
+2008,外,外,Hispanic Men,"40,790"
+2008,外,外,"White, non-Hispanic Women","49,260"
+2008,外,外,"White, non-Hispanic Men","67,520"
+2009,外,外,Total Women,"47,990"
+2009,外,外,Total Men,"62,340"
+2009,外,外,White Women,"48,570"
+2009,外,外,White Men,"64,410"
+2009,外,外,Black Women,"42,100"
+2009,外,外,Black Men,"49,600"
+2009,外,外,Asian Women,"56,000"
+2009,外,外,Asian Men,"68,470"
+2009,外,外,Hispanic Women,"35,960"
+2009,外,外,Hispanic Men,"41,530"
+2009,外,外,"White, non-Hispanic Women","50,970"
+2009,外,外,"White, non-Hispanic Men","68,000"
+2010,外,外,Total Women,"48,140"
+2010,外,外,Total Men,"62,570"
+2010,外,外,White Women,"48,770"
+2010,外,外,White Men,"65,490"
+2010,外,外,Black Women,"42,150"
+2010,外,外,Black Men,"48,080"
+2010,外,外,Asian Women,"53,870"
+2010,外,外,Asian Men,"67,490"
+2010,外,外,Hispanic Women,"36,780"
+2010,外,外,Hispanic Men,"41,210"
+2010,外,外,"White, non-Hispanic Women","52,570"
+2010,外,外,"White, non-Hispanic Men","67,800"
+2011,外,外,Total Women,"46,980"
+2011,外,外,Total Men,"61,010"
+2011,外,外,White Women,"47,740"
+2011,外,外,White Men,"63,370"
+2011,外,外,Black Women,"42,400"
+2011,外,外,Black Men,"49,970"
+2011,外,外,Asian Women,"51,740"
+2011,外,外,Asian Men,"69,710"
+2011,外,外,Hispanic Women,"36,730"
+2011,外,外,Hispanic Men,"40,300"
+2011,外,外,"White, non-Hispanic Women","51,050"
+2011,外,外,"White, non-Hispanic Men","66,220"
+2012,外,外,Total Women,"46,920"
+2012,外,外,Total Men,"61,340"
+2012,外,外,White Women,"48,440"
+2012,外,外,White Men,"62,600"
+2012,外,外,Black Women,"42,070"
+2012,外,外,Black Men,"47,820"
+2012,外,外,Asian Women,"56,600"
+2012,外,外,Asian Men,"72,900"
+2012,外,外,Hispanic Women,"35,290"
+2012,外,外,Hispanic Men,"40,040"
+2012,外,外,"White, non-Hispanic Women","50,800"
+2012,外,外,"White, non-Hispanic Men","65,230"
+2013,外,外,Total Women,"48,040"
+2013,外,外,Total Men,"61,380"
+2013,外,外,White Women,"49,380"
+2013,外,外,White Men,"62,000"
+2013,外,外,Black Women,"41,820"
+2013,外,外,Black Men,"50,130"
+2013,外,外,Asian Women,"51,940"
+2013,外,外,Asian Men,"70,700"
+2013,外,外,Hispanic Women,"37,060"
+2013,外,外,Hispanic Men,"39,650"
+2013,外,外,"White, non-Hispanic Women","50,790"
+2013,外,外,"White, non-Hispanic Men","65,620"
